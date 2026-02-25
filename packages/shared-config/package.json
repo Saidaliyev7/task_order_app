@@ -1,0 +1,19 @@
+{
+  "name": "@shared/config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo \"Skipping build for @shared/config\""
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    },
+    "./remotes.config": {
+      "import": "./src/remotes.config.ts"
+    },
+    "./types": "./src/types.ts",
+    "./package.json": "./package.json"
+  }
+}

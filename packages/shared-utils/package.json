@@ -1,0 +1,18 @@
+{
+  "name": "@shared/utils",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo \"Skipping build for @shared/utils\""
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "zustand": "^4.5.6"
+  }
+}

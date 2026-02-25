@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@shared/config": ["packages/shared-config/src/index.ts"],
+      "@shared/config/*": ["packages/shared-config/src/*"],
+      "@shared/ui": ["packages/shared-ui/src/index.ts"],
+      "@shared/ui/*": ["packages/shared-ui/src/*"],
+      "@shared/utils": ["packages/shared-utils/src/index.ts"],
+      "@shared/utils/*": ["packages/shared-utils/src/*"],
+      "@shared/types": ["packages/shared-config/src/types.ts"]
+    }
+  },
+  "include": ["packages", "apps", "tests"],
+  "references": []
+}
